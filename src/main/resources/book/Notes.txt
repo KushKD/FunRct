@@ -1,0 +1,13 @@
+Predicate == To Test a Condition
+Consumer == To consume Something and Return bac Nothing
+Function == To accept Something and Return back Something
+Supplier == Accepts Nothing and Return Something
+
+java.util.function
+        Predicate<T>            T->boolean
+        Consumer<T>             T-> void
+        Function<T,R>           T -> R
+        Supplier<T>             () -> T
+        UrinaryOperator<T>      T->T
+
+    T = Objects of any Type
