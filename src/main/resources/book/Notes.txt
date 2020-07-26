@@ -4,10 +4,18 @@ Function == To accept Something and Return back Something
 Supplier == Accepts Nothing and Return Something
 
 java.util.function
-        Predicate<T>            T->boolean
-        Consumer<T>             T-> void
-        Function<T,R>           T -> R
-        Supplier<T>             () -> T
-        UrinaryOperator<T>      T->T
+        Predicate<T>            T->boolean  test
+        Consumer<T>             T-> void    accept
+        Function<T,R>           T -> R      apply
+        Supplier<T>             () -> T     get
+        UrinaryOperator<T>      T->T        apply
+        accepts one type and returns the same type == Urinary Operator Type must match Return type and input Type
+        BitFunction
 
     T = Objects of any Type
+
+Instead od lamda we can use this
+    Object :: instanceMethod
+    Class :: staticMethod
+    Class :: instanceMethod
+    Class :: New
